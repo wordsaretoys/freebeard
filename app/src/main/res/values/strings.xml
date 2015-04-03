@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="service_name">Freebeard Music Generator</string>
+    <string name="app_name">Freebeard</string>
+    <string name="app_desc">Freebeard Music Generator</string>
+
+    <string name="actionPlay">Play</string>
+    <string name="actionPause">Pause</string>
+    <string name="actionNext">Next</string>
+    <string name="actionClose">Remove</string>
+    <string name="actionMore">More</string>
+    <string name="actionSofter">Softer</string>
+    <string name="actionLouder">Louder</string>
+
+</resources>

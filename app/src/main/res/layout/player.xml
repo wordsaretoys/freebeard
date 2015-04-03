@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageButton 
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_notify"
+        android:background="#343"
+        android:contentDescription="@string/app_desc"
+		style="?android:attr/borderlessButtonStyle"/>
+
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+    	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="6dp"
+	        android:text="@string/app_desc"/>
+	    
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+			style="?android:attr/buttonBarStyle">
+	        
+		    <ImageButton 
+		        android:id="@+id/play"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_action_play"
+		        android:contentDescription="@string/actionPlay"
+				style="?android:attr/borderlessButtonStyle"/>
+		
+		    <ImageButton 
+		        android:id="@+id/pause"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_action_pause"
+		        android:contentDescription="@string/actionPause"
+				style="?android:attr/borderlessButtonStyle"/>
+		    
+		    <ImageButton 
+		        android:id="@+id/next"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_action_next"
+		        android:contentDescription="@string/actionNext"
+				style="?android:attr/borderlessButtonStyle"/>
+		
+		    <ImageButton 
+		        android:id="@+id/softer"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_action_softer"
+		        android:contentDescription="@string/actionSofter"
+				style="?android:attr/borderlessButtonStyle"/>
+		    
+		    <ImageButton 
+		        android:id="@+id/louder"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_action_louder"
+		        android:contentDescription="@string/actionLouder"
+				style="?android:attr/borderlessButtonStyle"/>
+		    
+		    <ImageButton 
+		        android:id="@+id/close"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_action_close"
+		        android:contentDescription="@string/actionClose"
+				style="?android:attr/borderlessButtonStyle"/>
+		    		    
+		    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

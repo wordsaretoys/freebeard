@@ -1,0 +1,5 @@
+Want to listen to some music, but you've heard everything in your playlist a hundred times already? Or maybe you've run your favorite genre into the ground, and you're looking for something new?
+
+How about a music player that composes music for you?
+
+Freebeard employs melody, rhythm, and instrument generation algorithms to create ambient compositions. The player lives in your notification area, making it available from any application, and features play, pause, next, and volume controls. Each composition runs 3-5 minutes in length and is created live, weaving recurring motifs and improvisations into a coherent whole. If it ran for the lifetime of the universe it might generate every song ever written, but you can just chill out with it for an afternoon.

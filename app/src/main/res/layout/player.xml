@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
@@ -13,71 +14,75 @@
         android:contentDescription="@string/app_desc"
 		style="?android:attr/borderlessButtonStyle"/>
 
-    <LinearLayout 
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="vertical">
-    	    
-	    <TextView
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_marginLeft="6dp"
-	        android:text="@string/app_desc"/>
-	    
-	    <LinearLayout 
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-		    android:orientation="horizontal"
-			style="?android:attr/buttonBarStyle">
-	        
-		    <ImageButton 
-		        android:id="@+id/play"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:src="@drawable/ic_action_play"
-		        android:contentDescription="@string/actionPlay"
-				style="?android:attr/borderlessButtonStyle"/>
-		
-		    <ImageButton 
-		        android:id="@+id/pause"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:src="@drawable/ic_action_pause"
-		        android:contentDescription="@string/actionPause"
-				style="?android:attr/borderlessButtonStyle"/>
-		    
-		    <ImageButton 
-		        android:id="@+id/next"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:src="@drawable/ic_action_next"
-		        android:contentDescription="@string/actionNext"
-				style="?android:attr/borderlessButtonStyle"/>
-		
-		    <ImageButton 
-		        android:id="@+id/softer"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:src="@drawable/ic_action_softer"
-		        android:contentDescription="@string/actionSofter"
-				style="?android:attr/borderlessButtonStyle"/>
-		    
-		    <ImageButton 
-		        android:id="@+id/louder"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:src="@drawable/ic_action_louder"
-		        android:contentDescription="@string/actionLouder"
-				style="?android:attr/borderlessButtonStyle"/>
-		    
-		    <ImageButton 
-		        android:id="@+id/close"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:src="@drawable/ic_action_close"
-		        android:contentDescription="@string/actionClose"
-				style="?android:attr/borderlessButtonStyle"/>
-		    		    
-		    </LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@android:color/darker_gray"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="6dp"
+			android:background="@android:color/darker_gray"
+			android:text="@string/app_desc"
+			android:textAppearance="@android:style/TextAppearance" />
+
+		<LinearLayout
+			style="?android:attr/buttonBarStyle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:color/darker_gray"
+			android:orientation="horizontal">
+
+			<ImageButton
+				android:id="@+id/play"
+				style="@android:style/Widget.DeviceDefault.ImageButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/actionPlay"
+				android:src="@drawable/ic_action_play" />
+
+			<ImageButton
+				android:id="@+id/pause"
+				style="@android:style/Widget.DeviceDefault.ImageButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/actionPause"
+				android:src="@drawable/ic_action_pause" />
+
+			<ImageButton
+				android:id="@+id/next"
+				style="@android:style/Widget.DeviceDefault.ImageButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/actionNext"
+				android:src="@drawable/ic_action_next" />
+
+			<ImageButton
+				android:id="@+id/softer"
+				style="@android:style/Widget.DeviceDefault.ImageButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/actionSofter"
+				android:src="@drawable/ic_action_softer" />
+
+			<ImageButton
+				android:id="@+id/louder"
+				style="@android:style/Widget.DeviceDefault.ImageButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/actionLouder"
+				android:src="@drawable/ic_action_louder" />
+
+			<ImageButton
+				android:id="@+id/close"
+				style="@android:style/Widget.DeviceDefault.ImageButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:contentDescription="@string/actionClose"
+				android:src="@drawable/ic_action_close" />
+
+		</LinearLayout>
 	</LinearLayout>
 </LinearLayout>

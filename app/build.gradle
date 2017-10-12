@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.wordsaretoys.freebeard"
         minSdkVersion 16
-        targetSdkVersion 19
+        targetSdkVersion 21
     }
 
     buildTypes {
